@@ -1,6 +1,8 @@
-sudo: required
 env: 
   - YARN_GPG=no
+
+sudo: required
+
 services:
   - docker
 
