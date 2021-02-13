@@ -9,7 +9,7 @@ before_install:
 
 #this part was causing the ci to stuck and doplyment does not even start.
 #script:
-#  - docker run gd00141/docker-react npm run test -- --coverage 
+  - docker run gd00141/docker-react npm run test -- --coverage 
 
 deploy:
   provider: elasticbeanstalk
